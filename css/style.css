@@ -1,0 +1,50 @@
+/* Anatomía de las reglas CSS */
+/*
+  selector {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+  }
+*/
+body {
+  font-family: Arial;
+  font-size: 18px;
+  color: purple;
+  background-color:turquoise;
+  text-align:justify;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, h2, h3{
+  font-family:Tahoma;
+  color:darkblue;
+  text-decoration:underline;
+  text-align:center;
+}
+p {
+  line-height:150%;
+}
+a {
+  color: #000;
+  background-color: #FFF;
+  text-decoration: none;
+  font-family: Helvetica, Arial, Open Sans, sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+a:hover {
+  background-color: darkblue;
+  color: orange;
+}
+mark{
+  background-color:red;
+}
+#Foto-Linus {
+  display: block;
+  margin: 0 auto 0 auto;
+  border-top: solid 5px white;
+  border-left: solid 5px white;
+  border-right: solid 5px white;
+  border-bottom: solid 25px white;
+}
