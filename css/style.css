@@ -1,0 +1,59 @@
+body
+  {
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+  }
+
+header
+  {
+    background-color: #19181f;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  header h1
+    {
+      margin:0;
+      color: #D1D2D6;
+      float: left;
+      background-image: url("../img/logo.png");
+      background-repeat: no-repeat;
+      padding-left: 75px;
+    }
+
+  header nav
+    {
+      float: right;
+    }
+
+  header a
+    {
+      color: #D1D2D6;
+      display: block;
+      padding: 5px;
+    }
+
+  header a:hover
+    {
+      background-color: #D1D2D6;
+      color: #19181f;
+    }
+
+  header ul
+    {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    header ul li
+      {
+        display: inline-block;
+      }
+
+a
+  {
+    text-decoration: none;
+    color: black;
+  }
