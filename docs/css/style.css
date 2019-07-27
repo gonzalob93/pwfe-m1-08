@@ -48,3 +48,7 @@ mark{
   border-right: solid 5px white;
   border-bottom: solid 25px white;
 }
+#Logo-Git {
+  display: block;
+  margin: 0 auto 0 auto;
+}
