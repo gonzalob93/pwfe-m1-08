@@ -20,7 +20,10 @@ header
       float: left;
       background-image: url("../img/logo.png");
       background-repeat: no-repeat;
+      background-size: contain;
       padding-left: 75px;
+      font-weight: 600;
+      font-size: 26px;
     }
 
   header nav
