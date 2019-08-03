@@ -3,6 +3,7 @@ body
     font-family: Arial;
     font-size: 14px;
     margin: 0;
+    overflow-x: hidden;
   }
 
 header
@@ -57,3 +58,60 @@ a
     text-decoration: none;
     color: black;
   }
+
+img
+  {
+    display: block;
+    width: 100%;
+  }
+
+#noticias-destacadas
+  {
+    width: calc(100vw * 3);
+    overflow: hidden;
+    background-color: #19181f;
+    position: relative;
+    animation: 15s slider infinite;
+  }
+
+#noticias-destacadas figure
+  {
+    width: 480px;
+    float: left;
+    width: 100vw;
+  }
+
+#noticias-destacadas h2
+  {
+    font-size: 42px;
+    font-weight: 600;
+    background-color: #19181f;
+    padding: 10px;
+    color: white;
+  }
+
+ /* Animaciones CSS */
+
+ @keyframes slider
+  {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    40% {
+      left: -100vw;
+    }
+    60% {
+      left: -100vw;
+    }
+    80% {
+      left: -200vw;
+    }
+    100% {
+      left: -200vw;
+    }
+  }
+
+/* 0 a 20 primer slide quieto, 40 a 60 segundo slide quieto, 80 a 100 tercer slide quieto */
