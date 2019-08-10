@@ -93,6 +93,22 @@ img
     color: white;
   }
 
+.noticia /* Contenedor flexible */
+  {
+    display: flex;
+    flex-direction: row; /* Tiene valor por default "row" */
+    justify-content: space-evenly; /* flex-start | flex-center | flex-end | space-around | space-between | space-evenly */
+    align-items: center; /* Tiene valor por default "stretch" */
+  }
+.noticia-img /* Item flexible */
+  {
+    width: 25%;
+  }
+.noticia-txt
+  {
+    width: 65%;
+  }
+
  /* Animaciones CSS */
 
  @keyframes slider
