@@ -106,7 +106,7 @@ img
     padding-bottom: 15px;
   }
 
-.noticia: last-child
+.noticia:last-child
   {
     border: none;
   }
@@ -130,6 +130,50 @@ img
 .noticia-txt a
   {
     color: blue;
+  }
+
+#tabla-posiciones table
+  {
+    width: 60%;
+    margin: auto;
+  }
+
+#tabla-posiciones td, th
+  {
+    padding: 5px;
+    vertical-align: middle;
+  }
+
+#tabla-posiciones th
+  {
+    background-color: red;
+    color: white;
+    font-size: 600;
+  }
+
+#tabla-posiciones tr
+  {
+    background-color: #D9D9D9;
+    border-bottom: solid 1px #AAA;
+  }
+
+#tabla-posiciones tr:last-child
+#tabla-posiciones tr:first-child
+  {
+    border: none;
+  }
+
+#tabla-posiciones td:nth-child(odd)
+  {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+#tabla-posiciones td span
+  {
+    color: #00AD9B;
+    font-weight: 600;
   }
 
  /* Animaciones CSS */
